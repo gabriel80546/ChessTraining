@@ -1,0 +1,15 @@
+drop table usuario;
+
+create table usuario(
+	id		int	primary key	AUTO_INCREMENT,
+	login		varchar(255),
+	senha		varchar(255),
+	elo		real
+);
+
+insert into usuario (login,senha,elo)
+values	('Gabriel','025896',1500),
+	('Ester','1234',1200),
+	('Haddad','1234',2500);
+
+select * from usuario;

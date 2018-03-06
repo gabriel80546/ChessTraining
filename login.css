@@ -1,0 +1,34 @@
+body
+{
+	font-family: 'Inconsolata', monospace;
+}
+.master
+{
+	display: flex;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+
+	align-items: center;
+	justify-content: center;
+}
+.filha
+{
+	display: flex;
+	flex-direction: column;
+	background-color: #eee;
+	padding: 20px;
+	border-radius: 10px;
+}
+.colunas
+{
+	display: flex;
+	flex-direction: row;
+}
+.linhas
+{
+	display: flex;
+	flex-direction: column;
+}
